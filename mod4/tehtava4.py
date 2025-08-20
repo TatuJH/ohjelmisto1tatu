@@ -65,3 +65,4 @@ while i < monta:
         pisteita += 1
     i += 1
 print(4*pisteita/monta)
+

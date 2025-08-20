@@ -32,3 +32,4 @@ print("Paino nykyaikana on "+str(int(massa/1000))+"kg "+str(round((massa)%1000,3
 print("Kolminumeroinen koodi on "+str(random.randint(0,9))+str(random.randint(0,9))+str(random.randint(0,9)))
 print("Nelinumeroinen koodi on "+str(random.randint(1,6))+str(random.randint(1,6))+str(random.randint(1,6))+str(random.randint(1,6)))
 
+
