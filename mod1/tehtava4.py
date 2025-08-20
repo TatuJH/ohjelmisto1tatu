@@ -51,7 +51,6 @@ while tunnusarvaus != tunnus or salisarvaus != salis:
     else:
         print("Tervetuloa")
 
-
 #Tehtävä 4.6
 pistex = 0
 pistey = 0
