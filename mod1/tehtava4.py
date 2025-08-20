@@ -1,5 +1,4 @@
 import random
-import math
 
 #Tehtävä 4.1
 luvut = []
