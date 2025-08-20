@@ -42,13 +42,15 @@ tunnus = "python"
 salis = "rules"
 tunnusarvaus = ""
 salisarvaus = ""
-while tunnusarvaus != tunnus or salisarvaus != salis:
+arvaukset = 0
+while arvaukset < 5 and (tunnusarvaus != tunnus or salisarvaus != salis):
     tunnusarvaus = input("Syötä käyttäjätunnus")
     salisarvaus = input("Syötä salasana")
-    if tunnusarvaus != tunnus or salisarvaus != salis:
-        print("Pääsy evätty")
-    else:
+    arvaukset += 1
+    if tunnusarvaus == tunnus and salisarvaus == salis:
         print("Tervetuloa")
+if arvaukset == 5:
+    print("Pääsy evätty")
 
 #Tehtävä 4.6
 pistex = 0
