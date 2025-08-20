@@ -12,7 +12,7 @@ print(luvut)
 #Tehtävä 4.2
 tuumat = 0.0
 while tuumat >= 0:
-    tuumat = float(input("Anna tuumamäärä"))
+    tuumat = float(input("Anna positiivinen tuumamäärä tai negatiivinen lopettaaksesi"))
     if tuumat >= 0:
         print(str(tuumat)+" tuumaa on "+str(tuumat*2.54)+" senttimetriä")
 
