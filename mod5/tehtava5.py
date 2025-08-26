@@ -5,7 +5,6 @@ nopat = int(input("Monta arpakuutiota heitetään?"))
 summa = 0
 for i in range(0,nopat):
     summa += random.randint(1,6)
-    i += 1
 print(f"Arpakuutioiden summa on {summa}.")
 
 #Tehtävä 5.2
@@ -39,4 +38,3 @@ for i in range(0,5):
     kaupungit.append(input("Anna jokin kaupunki"))
 for i in range(0,len(kaupungit)):
     print(kaupungit[i])
-    i += 1
