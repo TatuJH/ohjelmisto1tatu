@@ -59,8 +59,8 @@ monta = int(input("Monta pistettä arvotaan?"))
 pisteita = 0
 i = 0
 while i < monta:
-    pistex=random.random()
-    pistey=random.random()
+    pistex=random.uniform(-1,1)
+    pistey=random.uniform(-1,1)
     if pistex**2+pistey**2 < 1:
         pisteita += 1
     i += 1

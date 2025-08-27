@@ -24,7 +24,7 @@ noppa2_main()
 
 #Tehtävä 6.3
 def muunnos(gallonat):
-    return gallonat * 3785
+    return gallonat / 3.785
 def muunnos_main():
     gallonat = int(input("Monta gallonaa muunnetaan?"))
     while gallonat >= 0:
@@ -48,7 +48,7 @@ def luvut2(lista):
             uusilista.append(i)
     return uusilista
 def luvut_main2():
-    lista = [1,2,3,4,5,6,7,8,9,10]
+    lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
     print(lista)
     print(luvut2(lista))
 luvut_main2()
