@@ -12,15 +12,15 @@ def noppa_main():
 noppa_main()
 
 #Tehtävä 6.2
-def nopanheitto2(tahkot):
+def nopanheitto(tahkot):
     return random.randint(1,tahkot)
-def noppa2_main():
+def noppa_main():
     luku = 0
     tahkot = int(input("Monta tahkoa nopassa?"))
     while luku != tahkot:
-        luku = nopanheitto2(tahkot)
+        luku = nopanheitto(tahkot)
         print(luku)
-noppa2_main()
+noppa_main()
 
 #Tehtävä 6.3
 def muunnos(gallonat):
@@ -41,17 +41,17 @@ def luvut_main():
 luvut_main()
 
 #Tehtävä 6.5
-def luvut2(lista):
+def luvut(lista):
     uusilista = []
     for i in lista:
         if i % 2 == 0:
             uusilista.append(i)
     return uusilista
-def luvut_main2():
+def luvut_main():
     lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
     print(lista)
-    print(luvut2(lista))
-luvut_main2()
+    print(luvut(lista))
+luvut_main()
 
 #Tehtävä 6.6
 def pizza(d, hinta):
